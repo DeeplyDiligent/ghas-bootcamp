@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/authn-service"
+    schedule:
+      interval: "daily"
+    labels:
+      - "triage-required"
+    assignees:
+      - "your-github-handle"
+    reviewers:
+      - "teammate-github-handle"
+    commit-message:
+      prefix: "pip"
