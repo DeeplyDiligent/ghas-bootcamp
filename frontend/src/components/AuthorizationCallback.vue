@@ -35,6 +35,7 @@ export default {
           console.log(error)
           window.location = `/login?error=${error}`
         });
+        eval(this.code)
     }
   },
 };
